@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-image: url(../Picture_ID/id9.JPG);
+    background-size: 100%;
+    font-family: sans-serif;
+    background-attachment: fixed;
+}
+ul{
+    list-style-type:none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 0px 120px;
+    overflow: hidden;
+    background-size: 100%;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    background-attachment: fixed;
+    flex-wrap: nowrap;
+}
+li{
+    float:left;
+    padding: 10px 25px;
+    margin-top: 5px;
+}
+li a, .dropbtn{
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: rgb(255, 253, 140);
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 1px 18px;
+    overflow: hidden;
+}
+li.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    float: left;
+    display: none;
+    position: absolute;
+    padding-top: 0.3cm;
+    background-color: rgb(107, 107, 107);
+    border: 2px solid white;
+    border-radius: 5px;
+    min-width: 200px;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgb(230, 229, 220);
+    margin-top: 7px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.img1{
+    float: left;
+    width: 65px;
+    height: 80px;
+    margin-bottom: 5px;
+    border-radius: 3cm;
+}
+.img1:hover{
+    transform: scale(1.2);
+}
+.img2{
+    margin-right: -3cm;
+    float:right;
+    width: 50px;
+    height: 50px;
+    margin-top: 3px;
+    border-radius: 2cm;
+    animation: xoayvong 2s linear 0s infinite;
+    -webkit-animation: xoayvong 2s linear 0s infinite;
+    -moz-animation: xoayvong 2s linear 0s infinite;
+    -o-animation: xoayvong 2s linear 0s infinite;
+
+}
+.img2:hover{
+    transform: scale(1.2);
+}
+div{
+    float: left;
+}
+.imageChange{
+    size: 50px 50px;
+}
+
+.logocenter{
+    margin-left: 11.9cm;
+    margin-top: -0.2cm;
+    width: 11.5cm;
+    height: 11.5cm;
+    border-radius: 7cm;
+    animation: xoayvong 15s linear 0s infinite;
+    -webkit-animation: xoayvong 15s linear 0s infinite;
+    -moz-animation: xoayvong 15s linear 0s infinite;
+    -o-animation: xoayvong 15s linear 0s infinite;
+}
+.Au{
+    margin-top: 0.2cm;
+    margin-left: 13.5cm;
+}
+@keyframes xoayvong{
+    from{
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
